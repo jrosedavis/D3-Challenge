@@ -72,6 +72,7 @@ var chosenYAxis = "healthcare";
       .attr("cx", d => xLinearScale(d[chosenXAxis])) //d is 1 state bound
       .attr("cy", d => yLinearScale(d[chosenYAxis]))
       .attr("r", 18)
+      .attr("fill", "blue")
       .attr("opacity", ".5")
       .classed("stateCircle", true);
 
