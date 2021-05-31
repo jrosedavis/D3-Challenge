@@ -1,15 +1,14 @@
 # D3-Challenge
-HW 16 - Data Journalism &amp; D3
 
-### Core Assignment: D3 Dabbler
+## Summary: 
+* Create an interactive chart in D3 exploring the correlation between state poverty rates and healthcare rates
 
-Create a scatter plot between two of the data variables such as `Healthcare vs. Poverty`.
+## Files:
+* index.html with scatter plot
+* 'assets' folder includes folders for CSS, JS and data
 
-Using the D3 techniques we taught you in class, create a scatter plot that represents each state with circle elements. You'll code this graphic in the `app.js` file of your homework directory—make sure you pull in the data from `data.csv` by using the `d3.csv` function. Your scatter plot should ultimately appear like the image at the top of this section.
-
+## Instructions:
+* Using the D3 techniques, create a scatter plot that represents each state with circle elements. You'll code this graphic in the `app.js` file.
+* Pull in the data from `data.csv` by using the `d3.csv` function. 
 * Include state abbreviations in the circles.
-
 * Create and situate your axes and labels to the left and bottom of the chart.
-
-* Note: You'll need to use `python -m http.server` to run the visualization. This will host the page at `localhost:8000` in your web browser.
-
